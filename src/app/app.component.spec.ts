@@ -44,7 +44,7 @@ describe('AppComponent', () => {
     expect(component).toBeTruthy();
   }));
 
-  let radioClicker = (i: number) => {
+  const radioClicker = (i: number) => {
     radioElements[i].click();
     fixture.detectChanges();
     expect(component.radioValue).toEqual(radioComponents[i].value);
