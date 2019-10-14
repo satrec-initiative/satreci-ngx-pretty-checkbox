@@ -1,0 +1,1 @@
+# satreci-ngx-pretty-checkbox
