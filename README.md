@@ -1,3 +1,4 @@
+
 # satreci-ngx-pretty-checkbox
 
 satreci-ngx-pretty-checkbox 은 [pretty-checkbox](https://lokesh-coder.github.io/pretty-checkbox/) 의 스타일을 적용한 체크박스/라디오 컨트롤을 Angular 컴포넌트로 제공합니다.
