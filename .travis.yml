@@ -6,8 +6,14 @@ dist: trusty
 sudo: required
 before_script:
   - npm install -g @angular/cli
+addons:
+  sonarcloud:
+    organization: "satrec-initiative"
+    token:
+      secure: "3dc3d95cef2f55abb09ecbcd51a9a64f3cc3522c"
 script:
   - ng lint
+  - sonar-scanner
   - npm run build:lib
 before_deploy:
   - cd lib-dist
