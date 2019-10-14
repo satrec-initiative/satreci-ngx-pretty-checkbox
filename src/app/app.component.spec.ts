@@ -27,14 +27,14 @@ describe('AppComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(AppComponent);
     component = fixture.componentInstance;
-    let elements = fixture.debugElement.queryAll(By.directive(SiRadioComponent));
+    const elements = fixture.debugElement.queryAll(By.directive(SiRadioComponent));
     radioComponents = [];
     radioElements = [];
     elements.forEach(e => {
       radioComponents.push(e.componentInstance);
       radioElements.push(e.query(By.css(`input[type='radio']`)).nativeElement);
     });
-    let checkbox = fixture.debugElement.query(By.directive(SiCheckboxComponent));
+    const checkbox = fixture.debugElement.query(By.directive(SiCheckboxComponent));
     checkboxElement = checkbox.query(By.css(`[type='checkbox']`)).nativeElement;
 
     fixture.detectChanges();
@@ -48,25 +48,25 @@ describe('AppComponent', () => {
     radioElements[i].click();
     fixture.detectChanges();
     expect(component.radioValue).toEqual(radioComponents[i].value);
-  }
+  };
 
   it('radio test', () => {
     expect(component.radioValue).toEqual(radioComponents[0].value);
 
-    for(let i = 1; i < radioComponents.length; ++i) {
+    for (let i = 1; i < radioComponents.length; ++i) {
       radioClicker(i);
     }
   });
 
   it('checkbox test', () => {
     expect(component.checkboxState).toBeFalsy();
-    
+
     checkboxElement.click();
     fixture.detectChanges();
     expect(component.checkboxState).toBeTruthy();
-    
+
     checkboxElement.click();
     fixture.detectChanges();
     expect(component.checkboxState).toBeFalsy();
-  })
+  });
 });
