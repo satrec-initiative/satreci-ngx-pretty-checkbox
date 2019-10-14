@@ -10,7 +10,7 @@ addons:
   sonarcloud:
     organization: "satrec-initiative"
     token:
-      secure: "3dc3d95cef2f55abb09ecbcd51a9a64f3cc3522c"
+      secure: $SONAR_CLOUD_TOKEN
 script:
   - ng lint
   - sonar-scanner
