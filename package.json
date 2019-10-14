@@ -9,8 +9,7 @@
     "build:lib": "ng-packagr -p ng-package.json",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "publish:lib": "npm publish lib-dist"
+    "e2e": "ng e2e"
   },
   "private": false,
   "dependencies": {
