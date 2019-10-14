@@ -11,11 +11,6 @@ script:
   - npm run build:lib
 before_deploy:
   - cd lib-dist
-addons:
-  sonarcloud:
-    organization: "satrec-initiative"
-    token:
-      secure: "d44bec831c9cbcebff79904b46a5bf5f543b2178"
 deploy:
   provider: npm
   email: satreci-gsd@satreci.com
