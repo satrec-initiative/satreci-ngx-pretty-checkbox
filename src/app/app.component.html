@@ -1,0 +1,52 @@
+<fieldset>
+  <legend>Checkbox</legend>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" name="c-primary" checkboxClass="p-primary">Primary</si-checkbox>
+  </div>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" name="c-success" checkboxClass="p-success">Success</si-checkbox>
+  </div>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" name="c-info" checkboxClass="p-info">Info</si-checkbox>
+  </div>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" name="c-warning" checkboxClass="p-warning">Warning</si-checkbox>
+  </div>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" name="c-danger" checkboxClass="p-danger">Danger</si-checkbox>
+  </div>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" name="c-default" checkboxClass="p-custom">Custom (src/style.css)</si-checkbox>
+  </div>
+  <div>
+    <si-checkbox [(ngModel)]="checkboxState" [dark]="true" name="c-dark" checkboxClass="p-custom">Dark</si-checkbox>
+  </div>
+</fieldset>
+
+<fieldset>
+  <legend>Radio</legend>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="primary" radioClass="p-primary-o">Primary</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="success" radioClass="p-success-o">Success</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="info" radioClass="p-info-o">Info</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="warning" radioClass="p-warning-o">Warning</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="danger" radioClass="p-danger-o">Danger</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="default" radioClass="p-default-o">Default</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" name="si-radio" value="custom" radioClass="p-custom-o">Custom (src/style.css)</si-radio>
+  </div>
+  <div>
+    <si-radio [(ngModel)]="radioValue" [dark]="true" name="si-radio" value="dark" radioClass="p-custom-o">Dark</si-radio>
+  </div>
+</fieldset>

@@ -1,0 +1,4 @@
+.pretty.dark .state label:before {
+    background-color: #4c646f;
+    border-color: #546e7a;
+}

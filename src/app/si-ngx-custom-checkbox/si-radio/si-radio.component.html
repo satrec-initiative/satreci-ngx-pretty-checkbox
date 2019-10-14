@@ -1,0 +1,6 @@
+<div class="pretty p-round p-default" [class.dark]="dark">
+  <input type="radio" [name]="name" [value]="value" [(ngModel)]="modelValue">
+  <div class="state" [ngClass]="radioClass">
+    <label><ng-content></ng-content></label>
+  </div>
+</div>
