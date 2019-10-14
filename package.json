@@ -1,6 +1,10 @@
 {
   "name": "satreci-ngx-pretty-checkbox",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satrec-initiative/satreci-ngx-pretty-checkbox"
+  },
   "license": "MIT",
   "scripts": {
     "ng": "ng",
