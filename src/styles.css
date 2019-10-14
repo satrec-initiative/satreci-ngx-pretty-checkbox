@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.pretty.p-custom input:checked ~ .state label:after {
+    background-color: #00a293 !important
+}
+.pretty .state label:before {
+    background-color: #fff
+}
+.pretty input:checked ~ .state.p-custom label:after,
+.pretty input:checked ~ .state.p-custom-o label:after,
+.pretty.p-toggle .state.p-custom-o label:after {
+    background-color: #00a293 !important;
+}
