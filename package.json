@@ -19,6 +19,8 @@
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
     "@angular/core": "^5.0.0",
     "@angular/forms": "^5.0.0",
     "@angular/http": "^5.0.0",
@@ -29,12 +31,11 @@
     "core-js": "^2.4.1",
     "pretty-checkbox": "^3.0.3",
     "rxjs": "^5.5.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "typescript": "2.4.2"
   },
   "devDependencies": {
     "@angular/cli": "^1.4.10",
-    "@angular/compiler": "^5.0.0",
-    "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^4.2.4",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
@@ -53,7 +54,6 @@
     "ts-node": "~3.2.0",
     "tsickle": "^0.25.6",
     "tslint": "~5.7.0",
-    "typescript": "^2.4.2",
     "uglify-js": "^3.3.18"
   }
 }
