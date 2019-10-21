@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SiNgxCustomCheckboxModule } from './si-ngx-custom-checkbox/si-ngx-custom-checkbox.module';
+import { SiNgxPrettyCheckboxModule } from './si-ngx-pretty-checkbox/si-ngx-pretty-checkbox.module';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     FormsModule,
-    SiNgxCustomCheckboxModule
+    SiNgxPrettyCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

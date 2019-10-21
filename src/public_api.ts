@@ -1,1 +1,1 @@
-export * from './app/si-ngx-custom-checkbox/si-ngx-custom-checkbox.module';
+export * from './app/si-ngx-pretty-checkbox/si-ngx-pretty-checkbox.module';

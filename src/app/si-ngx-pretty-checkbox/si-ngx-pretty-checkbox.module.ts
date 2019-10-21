@@ -14,4 +14,4 @@ import { SiRadioComponent } from './si-radio/si-radio.component';
   declarations: [SiCheckboxComponent, SiRadioComponent],
   exports: [SiCheckboxComponent, SiRadioComponent]
 })
-export class SiNgxCustomCheckboxModule { }
+export class SiNgxPrettyCheckboxModule { }

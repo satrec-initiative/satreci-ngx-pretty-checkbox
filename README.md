@@ -9,10 +9,29 @@ satreci-ngx-pretty-checkbox 은 [pretty-checkbox](https://lokesh-coder.github.io
 ## Installation
 
 ```bash
-npm install satreci-ngx-pretty-checkbox --save
+npm install satreci-ngx-pretty-checkbox pretty-checkbox --save
 ```
 
 ## Usage
+
+.angular-cli.json
+
+```javascript
+{
+  ...
+  "apps": [
+    {
+      ...
+      "styles": [
+        "../node_modules/pretty-checkbox/dist/pretty-checkbox.min.css",
+        "styles.css"
+      ],
+      ...
+    }
+  ]
+  ...
+}
+```
 
 Angular 모듈 파일 (app.module.ts)
 
