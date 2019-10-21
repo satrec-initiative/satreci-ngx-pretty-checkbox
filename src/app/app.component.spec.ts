@@ -1,10 +1,10 @@
 import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { SiNgxCustomCheckboxModule } from './si-ngx-custom-checkbox/si-ngx-custom-checkbox.module';
+import { SiNgxPrettyCheckboxModule } from './si-ngx-pretty-checkbox/si-ngx-pretty-checkbox.module';
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
-import { SiRadioComponent } from './si-ngx-custom-checkbox/si-radio/si-radio.component';
-import { SiCheckboxComponent } from './si-ngx-custom-checkbox/si-checkbox/si-checkbox.component';
+import { SiRadioComponent } from './si-ngx-pretty-checkbox/si-radio/si-radio.component';
+import { SiCheckboxComponent } from './si-ngx-pretty-checkbox/si-checkbox/si-checkbox.component';
 describe('AppComponent', () => {
   let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
@@ -19,7 +19,7 @@ describe('AppComponent', () => {
       ],
       imports: [
         FormsModule,
-        SiNgxCustomCheckboxModule
+        SiNgxPrettyCheckboxModule
       ]
     }).compileComponents();
   }));

@@ -1,8 +1,7 @@
 {
   "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
   "lib": {
-    "entryFile": "./src/public_api.ts",
-    "sassIncludePaths": ["./node_modules/pretty-checkbox/dist/pretty-checkbox.min.css"]
+    "entryFile": "./src/public_api.ts"
   },
   "dest": "./lib-dist"
 }
